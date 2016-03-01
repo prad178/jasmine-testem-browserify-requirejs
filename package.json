@@ -1,0 +1,33 @@
+{
+    "name": "testembrowserify",
+    "description": "Test setup with Testem, Browserify and Requirejs",
+    "version": "0.0.1",
+    "homepage": "https://github.com/prad178/jasmine-testem-browserify-requirejs",
+    "keywords": [
+        "jasmine",
+        "testem",
+        "requirejs",
+        "browserify",
+        "example"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/prad178/jasmine-testem-browserify-requirejs.git"
+    },
+    "bugs": {
+        "url": "prad_178@yahoo.com"
+    },
+    "author": {
+        "name": "Pradeep Chand",
+        "email": "prad_178@yahoo.com"
+    },
+    "main": "src/package.js",
+    "dependencies": {
+        "testem": "~1.4.1"
+    },
+    "private": true,
+    "scripts": {
+        "test": ""
+    },
+    "license": "MIT"
+}
