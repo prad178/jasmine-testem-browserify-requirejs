@@ -1,0 +1,8 @@
+{
+  "framework": "jasmine",
+  "test_page": "script/tests/jstestem.html",
+  "before_tests": "./node_modules/.bin/browserify script/tests/testSpec.js -o script/tests/browserified.js",
+  "on_exit": "rm script/tests/browserified.js && rm script/bundle.js",
+  "launch_in_ci": ["firefox"],
+  "launch_in_dev": ["firefox"]
+}
