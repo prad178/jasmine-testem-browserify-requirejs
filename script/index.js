@@ -6,10 +6,10 @@ module.exports = {
         this.changeButton = $("#changeButton");
 
         self.changeButton.on('click', function(){
-            self.changeContent();
+            self.changeContent("This is changed text.");
         });
     },
-    changeContent: function(){
-        this.content.text("This is changed text.");
+    changeContent: function(newContent){
+        this.content.text(newContent);
     }
 }
